@@ -27,7 +27,7 @@ def main(config_section):
         reddit = praw.Reddit(client_id=config_dict["client_id"], 
                              client_secret=config_dict["client_secret"],
                              user_agent=config_dict["user_agent"], 
-			     username=config_dict["username"], 
+                             username=config_dict["username"], 
                              password=config_dict["password"])
         subreddit = reddit.subreddit(config_dict['subreddit'])
 
