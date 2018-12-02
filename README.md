@@ -1,5 +1,5 @@
 # RedditArchiver
-Take links from Reddit and generate Webpage Archive
+Take links from Reddit submissions and generate reply with webpage archive.
 
 ### Required packages:
 
